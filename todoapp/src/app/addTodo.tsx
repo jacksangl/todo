@@ -1,5 +1,5 @@
 "use client";
-
+// stuff
 import { useState } from "react";
 import { TODOS_ENDPOINT } from "../constants";
 
@@ -65,7 +65,7 @@ const AddTodo = ({ onAdd, demoMode }: AddTodoProps) => {
         onClick={handleAdd}
         className="w-full bg-blue-500 text-white p-3 rounded hover:bg-blue-600 transition-colors"
       >
-        Add
+        Add Task
       </button>
     </div>
   );
