@@ -6,8 +6,5 @@
     "src/app/**/*.{js,ts,tsx}": {
       "runtime": "nodejs18.x"
     }
-  },
-  "env": {
-    "NEXT_PUBLIC_API_URL": "@next_public_api_url"
   }
 }
